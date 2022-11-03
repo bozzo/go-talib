@@ -52,7 +52,7 @@ jobs:
           args: ./...
 
       - name: Go-linter
-        uses: Jerome1337/golint-action@v1.0.2
+        uses: Jerome1337/golint-action@v1.0.3
 
       - name: Check code formatting using gofmt
         uses: Jerome1337/gofmt-action@v1.0.4
